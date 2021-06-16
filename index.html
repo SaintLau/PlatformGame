@@ -1,18 +1,76 @@
 <!DOCTYPE html>
     <html>
         <head>
+            <link rel="stylesheet" href="modal.css">
+            <!--CDN LINK TO jQuery-->
+            <script src="<https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js>"></script>
             <title>Project: Platform Game</title>
             <link rel="stylesheet" href="game.css">
         </head>
 
         <body>
-            <div id="intro" class="game-start">
-                <h2 class="title">Not Super Mario 64</h2>
-                
+            <!-- Trigger/Open The Modal -->
+                <button id="myBtn">READ ME PLS</button>
+            <!-- The Modal -->
+            <div id="myModal" class="modal">
+            <!-- Modal content -->
+                <div class="modal-content">
+                <span class="close">&times;</span>
+                <p>
+                    We are sorry, but we are still working in this amazing page!
+                    It may not look perfect now, but we promisse to keep working on it! 
+
+                    Also...if you want to close me, just click anywhere in this page
+                </p>
+                </div>
             </div>
+            
+
+                <div id="intro" class="game-start">
+                    <h2 class="title">Mr. Kim_Chi 64</h2>
+                </div>
+
+                <div class="rules">
+                    <h2 class="rulesTitle">How to play</h2>
+                    <h3 class="intro">
+                        Like most platform games, all you need to do is:
+                    </h3>
+                    
+                    <ol>
+                       <li>
+                           Jump:
+                           Press the up-arrow key and you will see Mr. Kim_Chi jump
+                       </li> 
+                    
+                        <li>
+                             Go Right
+                            Press the right-arrow key and Mr. Kim_Chi will face right and move
+                        </li>
+                         
+                        <li>
+                            Go Left
+                            Press the left-arrow key and Mr. Kim_Chi will change direction
+                        </li>           
+                    </ol>
+                    
+                            
+                         
+                    
+
+                    <div class="wrapper">
+                        <p>This game is</p>
+                        <div class="words">
+                            <span>fantastic</span>
+                            <span>interesting</span>
+                            <span>awesome</span>
+                            <span>incredible</span>
+                            <span>fantastic</span>
+                        </div>
+                    </div>
+                </div>
 
 
-
+            <script src="modal.js"></script>    
             <script src="levels.js"></script>
             <script src="game.js"></script>
             <script>
